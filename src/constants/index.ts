@@ -10,7 +10,6 @@ import type {
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -24,15 +23,15 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+  flutter,
+  django,
+  aws,
+} from "../assets/inex";
 
 export const navLinks: TNavLink[] = [
   {
@@ -55,7 +54,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
@@ -63,8 +62,8 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "AI/ML-LLM",
+    icon: mobile,
   },
 ];
 
@@ -76,6 +75,10 @@ const technologies: TTechnology[] = [
   {
     name: "CSS 3",
     icon: css,
+  },
+  {
+    name: "Flutter",
+    icon: flutter,
   },
   {
     name: "JavaScript",
@@ -102,20 +105,20 @@ const technologies: TTechnology[] = [
     icon: nodejs,
   },
   {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -125,55 +128,15 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Flutter Mobile App Developer",
+    companyName: "Rablo.in",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2025 - Jun 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a high-performance mobile application using the Flutter framework, resulting in a 20% improvement in screen responsiveness and overall user experience. flutter framework.",
+ " Designed and implemented 7 out of 20 key modules, focusing on robust UI/UX and seamless API integration to ensure feature completeness and responsiveness.",
+ "Managed and guided a team of 4 developers, overseeing the development lifecycle and contributing to the successful and timely product launch",
     ],
   },
 ];

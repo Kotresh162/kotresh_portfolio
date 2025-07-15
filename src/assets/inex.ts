@@ -29,7 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import flutter from "./tech/flutter.png";
+import django from './tech/django.png';
+import aws from "./tech/aws.png";
 export {
   logo,
   backend,
@@ -58,5 +60,8 @@ export {
   tesla,
   carrent,
   jobit,
+  flutter,
   tripguide,
+  aws,
+  django,
 };
