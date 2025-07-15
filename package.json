@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://github.com/Kotresh162/kotresh_portfolio",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
