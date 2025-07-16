@@ -1,4 +1,5 @@
-import { useState, useRef, Suspense } from "react";
+import { useState, useRef, useEffect, Suspense } from "react";
+import React from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import { random } from "maath";
@@ -33,17 +34,28 @@ const Stars = (props: any) => {
 };
 
 const StarsCanvas = () => {
+  const canvasRef = useRef<HTMLDivElement | null>(null);
+
+  // ✅ PLACE CLEANUP USEEFFECT HERE
+  useEffect(() => {
+    const temp = canvasRef.current;
+    return () => {
+      if (temp) {
+        temp.innerHTML = "";
+      }
+    };
+  }, []);
+
   return (
-    <div className="absolute inset-0 z-[-1] h-auto w-full">
-      <Canvas camera={{ position: [0, 0, 1] }}>
+    <div ref={canvasRef} className="absolute inset-0 z-[-1] h-auto w-full">
+      <Canvas camera={{ position: [0, 0, 1] }} gl={{ preserveDrawingBuffer: true }}>
         <Suspense fallback={null}>
           <Stars />
         </Suspense>
-
         <Preload all />
       </Canvas>
     </div>
   );
 };
 
-export default StarsCanvas;
+export default React.memo(StarsCanvas);
