@@ -218,14 +218,6 @@ The easiest way to deploy this Next.js app is to use the
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Freactjs18-3d-portfolio)
 
-#### Deploy on Netlify
-
-You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/reactjs18-3d-portfolio)
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
 ## 🔧 Contributing
 
 
@@ -261,5 +253,9 @@ possible:
 - [JavaScript Mastery](https://www.jsmastery.pro/)
 
 ## 📞 Contact Us
+- email:-kotreshsh162@gmail.com
+- linkdin:-https://www.linkedin.com/in/kotreshhiremath/
+
+Follow more on flutter,react, django
 
 
