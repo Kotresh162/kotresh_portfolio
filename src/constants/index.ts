@@ -168,67 +168,91 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "English Mastery",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Designed an innovative English language learning mobile app with features - recommends personalized content based on the user’s knowledge model, Incorporated dynamic features like real-time translation, interactive assessments, and comprehensive progress tracking, significantly boosting user engagement and accelerating learning.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Firebase,LLM",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Kotresh162/Engliish_masterty.git",
   },
   {
-    name: "Job IT",
+    name: "Home Manager",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The dynamic frontend displays home machine usage details using bar graphs and pie charts. Users can set limits to trigger alarms. The entire system is built to be scalable and secure, utilizing JWT tokens for authentication.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node & Express.js-jwt ",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "python-Machine Learning",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Kotresh162/Home_appliences.git",
   },
   {
-    name: "Trip Guide",
+    name: "Google Sheet-Assistant",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed real-time synchronization between database operations (GET, ADD, DELETE, UPDATE) and Google Sheets, ensuring seamless data updates. Implemented a system that prioritizes Google Sheets updates over database changes based on timing. This solution improved data management for organizations by maintaining consistent user data across both platforms.",
     tags: [
       {
-        name: "nextjs",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Express.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Appscript",
+        color: "pink-text-gradient",
+      }, {
+        name: "AWS-EC2",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: tripguide,
+    sourceCodeLink: "https://github.com/Kotresh162/GoogleSheetManager.git",
+  },
+  {
+    name: "Airlines and Hotel-Chatbot",
+    description:
+      "Helps the user to book flight and hotels through chats.",
+    tags: [
+      {
+        name: "Streamlit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python-fastapi ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "LLM-llama-3b",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: jobit,
+    sourceCodeLink: "https://github.com/Kotresh162/airlines_chatbot.git",
   },
 ];
 
