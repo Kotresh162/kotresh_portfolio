@@ -32,9 +32,13 @@ import tripguide from "./tripguide.png";
 import flutter from "./tech/flutter.png";
 import django from './tech/django.png';
 import aws from "./tech/aws.png";
+import english from './english_app.png'
+import threat from './tech/threat.png'
 export {
   logo,
+  threat,
   backend,
+  english,
   creator,
   mobile,
   web,

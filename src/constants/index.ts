@@ -23,7 +23,8 @@ import {
   git,
   docker,
   starbucks,
-  carrent,
+  threat,
+  english,
   jobit,
   tripguide,
   flutter,
@@ -170,7 +171,7 @@ const projects: TProject[] = [
   {
     name: "English Mastery",
     description:
-      "Designed an innovative English language learning mobile app with features - recommends personalized content based on the user’s knowledge model, Incorporated dynamic features like real-time translation, interactive assessments, and comprehensive progress tracking, significantly boosting user engagement and accelerating learning.",
+      "Designed an innovative English language learning mobile app - Video Summary generator(developed an Video-Text model with better results compare to whisper model),recommends personalized content based on the user’s knowledge model, Incorporated dynamic features like real-time translation, interactive assessments, and comprehensive progress tracking, significantly boosting user engagement and accelerating learning.",
     tags: [
       {
         name: "Flutter",
@@ -178,35 +179,51 @@ const projects: TProject[] = [
       },
       {
         name: "Flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine Learning",
         color: "green-text-gradient",
       },
       {
         name: "Firebase,LLM",
         color: "pink-text-gradient",
       },
+      {
+        name: "LLM",
+        color: "pink-text-gradient",
+      },
     ],
-    image: carrent,
+    image: english,
     sourceCodeLink: "https://github.com/Kotresh162/Engliish_masterty.git",
   },
   {
-    name: "Home Manager",
+    name: "Threat Analyzer",
     description:
-      "The dynamic frontend displays home machine usage details using bar graphs and pie charts. Users can set limits to trigger alarms. The entire system is built to be scalable and secure, utilizing JWT tokens for authentication.",
+      "Developed backend for a Threat Intelligence Dashboard that ingests NLP-processed threat data from CSV files and exposes a robust RESTful API for filtering, searching, and visualizing cyber threat information. Built and deployed a regression-based machine learning model to predict cyberattacks with 94 % accuracy, trained on 12 features to classify threats into 4 distinct attack types.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Node & Express.js-jwt ",
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "python-Machine Learning",
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Machine Learning - Regression Model",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: threat,
     sourceCodeLink: "https://github.com/Kotresh162/Home_appliences.git",
   },
   {
