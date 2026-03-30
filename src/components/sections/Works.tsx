@@ -71,13 +71,13 @@ const Works = () => {
       <div className="flex w-full">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="text-secondary mt-3 max-w-3xl text-[17px] leading-[30px]"
+          className="text-secondary mt-3 max-w-full text-[17px] leading-[30px]"
         >
           {config.sections.works.content}
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-12">
+      <div className="mt-20 w-full flex flex-wrap items-center justify-between">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

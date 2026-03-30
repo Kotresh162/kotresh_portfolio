@@ -24,6 +24,8 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import novoFocus from './novafocus_icon.png';
+import rablo from './rablo_logo.png';
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -61,6 +63,8 @@ export {
   meta,
   shopify,
   starbucks,
+  novoFocus,
+  rablo,
   tesla,
   carrent,
   jobit,

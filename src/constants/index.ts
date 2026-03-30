@@ -22,7 +22,8 @@ import {
   mongodb,
   git,
   docker,
-  starbucks,
+  novoFocus,
+  rablo,
   threat,
   english,
   jobit,
@@ -127,15 +128,27 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
+    title: "Software Engineer",
+    companyName: "NovaFocus Pvt Ltd",
+    icon: novoFocus,
+    iconBg: "#383E56",
+    date: "Feb 2025 - Jun 2025",
+    points: [
+      "Collaborated with the backend team on apps serving 1.4M+ users across Android and iOS, contributing to the full development lifecycle.",
+      " Built a cross-platform solution including a Chrome Extension and Windows desktop application using React, Electron.js, and C++, enabling deep integration with OS-level functionalities.",
+      "Designed and implemented multi-threaded processing architecture to efficiently handle AI-driven tasks, ensuring high performance and responsiveness across concurrent operations.",
+    ],
+  },
+  {
     title: "Flutter Mobile App Developer",
     companyName: "Rablo.in",
-    icon: starbucks,
+    icon: rablo,
     iconBg: "#383E56",
     date: "Feb 2025 - Jun 2025",
     points: [
       "Developed a high-performance mobile application using the Flutter framework, resulting in a 20% improvement in screen responsiveness and overall user experience. flutter framework.",
- " Designed and implemented 7 out of 20 key modules, focusing on robust UI/UX and seamless API integration to ensure feature completeness and responsiveness.",
- "Managed and guided a team of 4 developers, overseeing the development lifecycle and contributing to the successful and timely product launch",
+      " Designed and implemented 7 out of 20 key modules, focusing on robust UI/UX and seamless API integration to ensure feature completeness and responsiveness.",
+      "Managed and guided a team of 4 developers, overseeing the development lifecycle and contributing to the successful and timely product launch",
     ],
   },
 ];
@@ -171,23 +184,19 @@ const projects: TProject[] = [
   {
     name: "English Mastery",
     description:
-      "Designed an innovative English language learning mobile app - Video Summary generator(developed an Video-Text model with better results compare to whisper model),recommends personalized content based on the user’s knowledge model, Incorporated dynamic features like real-time translation, interactive assessments, and comprehensive progress tracking, significantly boosting user engagement and accelerating learning.",
+      "Designed an innovative English language learning mobile app - Video Summary generator(developed an Video-Text model with better results compare to whisper model),recommends personalized content based on the user's knowledge.",
     tags: [
       {
         name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "Flask",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
         name: "Machine Learning",
         color: "green-text-gradient",
-      },
-      {
-        name: "Firebase,LLM",
-        color: "pink-text-gradient",
       },
       {
         name: "LLM",
@@ -200,10 +209,10 @@ const projects: TProject[] = [
   {
     name: "Threat Analyzer",
     description:
-      "Developed backend for a Threat Intelligence Dashboard that ingests NLP-processed threat data from CSV files and exposes a robust RESTful API for filtering, searching, and visualizing cyber threat information. Built and deployed a regression-based machine learning model to predict cyberattacks with 94 % accuracy, trained on 12 features to classify threats into 4 distinct attack types.",
+      "Developed backend for a Threat Intelligence Dashboard that ingests NLP-processed threat data from CSV files and exposes a robust RESTful API for filtering, searching, and visualizing cyber threat information.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
@@ -227,33 +236,9 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/Kotresh162/Home_appliences.git",
   },
   {
-    name: "Google Sheet-Assistant",
-    description:
-      "Developed real-time synchronization between database operations (GET, ADD, DELETE, UPDATE) and Google Sheets, ensuring seamless data updates. Implemented a system that prioritizes Google Sheets updates over database changes based on timing. This solution improved data management for organizations by maintaining consistent user data across both platforms.",
-    tags: [
-      {
-        name: "Reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Express.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Appscript",
-        color: "pink-text-gradient",
-      }, {
-        name: "AWS-EC2",
-        color: "blue-text-gradient",
-      }
-    ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/Kotresh162/GoogleSheetManager.git",
-  },
-  {
     name: "Airlines and Hotel-Chatbot",
     description:
-      "Helps the user to book flight and hotels through chats.",
+      "Helps the user to book flight and hotels through chats.large laguage model works with amedius api to to fetch and allocate reservation regarding user queries.",
     tags: [
       {
         name: "Streamlit",
